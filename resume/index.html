@@ -2,66 +2,297 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Form</title>
+        <title>Макет резюме</title>
         <meta keywords="">
         <meta description="">
         <meta name="viewport" content="initial-scale=1.0, width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="stylesheet" href="/css/form.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/fonts.css">
     </head>
     <body>
-        <div class="wrapper">
-            <div class="header">
-                <div class="header-line1"></div>
-                <div class="header-line2">
-                    <div class="header-line2-text1">indipixel</div>
-                    <div class="header-line2-text2">CONTACT US</div>
-                </div>  
-                <div class="header-content">
-                    <h1 class="header-content-title">We design and build<br>beautiful web &amp; mobile apps</h1>
-                    <p class="header-content-text">
-                        You can design and create, and build the most wonderful place in the world. 
-                        But it takes people to make the dream a reality. - Walt Disney
-                    </p>
-                    <div class="header-content-button-container">
-                        <input class="header-content-button-submit" type="submit" value="KNOW MORE">
+        <div class="content">
+            <div class="block-left">
+                <div class="component-name-container">
+                    <div class="component-name">
+                        <div class="component-name-photo">
+                            <div class="component-name-photo-disc">
+                                <div class="component-name-photo-circle"></div>
+                            </div>
+                        </div>
+                        <div class="component-name-info">
+                            <div class="component-name-info-name">NAME HERE</div>
+                            <div class="component-name-info-surname">SURNAME</div>
+                            <div class="component-name-info-profession">GRAPHIC DESIGNER</div>
+                        </div>
                     </div>
                 </div>
-                <div class="header-content-images">
-                    <img class="header-content-image-phone" src="img/Phone%20Frame.png" alt="Phone">
-                    <img class="header-content-image-disney" src="img/Change%20your%20Screen.png" alt="Disney">
-                    <div class="header-content-image-greenlines">
-                        <img class="header-content-image-greenline1" src="img/Green%20Diagonal%20Line1.png" alt="GreenLine1">
-                        <img class="header-content-image-greenline2" src="img/Green%20Diagonal%20Line.png" alt="GreenLine2"> 
+                <div class="component-profile">
+                    <div class="component-profile-header">
+                        <img class="component-profile-header-img" src="img/PROFILE%20ICON.png" alt="Profile">
+                        <span class="component-profile-header-text">PROFILE</span>
+                        <div class="component-profile-header-line"></div>
                     </div>
-                </div>  
-            </div>
-            <div class="content">
-                <form class="content-form">
-                    <h2 class="content-form-title">Lets Talk</h2>
-                    <div class="content-form-conteiner">
-                        <div class="content-form-conteiner-row">
-                            <input class="content-form-name" type="text" value="First Name">
-                            <input class="content-form-lastname" type="text" value="Last Name">
+                    <p class="component-profile-content-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+                        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                        Nullam dictum felis eu <span class="component-profile-content-text-bold">pede mollis pretium.
+                        Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                        Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</span>
+                    </p>
+                </div>
+                <div class="component-contact">
+                    <div class="component-contact-header">
+                        <img class="component-contact-header-img" src="img/Phone%20Icon.png" alt="Phone">
+                        <span class="component-contact-header-text">CONTACT</span>
+                        <div class="component-contact-header-line"></div>
+                    </div>
+                    <div class="component-contact-content">
+                        <div class="component-contact-content-address">
+                            <div class="component-contact-content-address-text">ADDRESS</div>
+                            <div class="component-contact-content-address-value">Main Street, City.</div>
                         </div>
-                        <div class="content-form-conteiner-row">
-                            <input class="content-form-email" type="text" value="Email Address">
-                            <div class="content-form-option">
-                                <div class="content-form-option-appdesign">App Design</div>
-                                <img class="content-form-option-icon" src="img/Drop%20down%20arrow.png" alt="Drop">
+                        <div class="component-contact-content-email">
+                            <div class="component-contact-content-email-text">E-MAIL</div>
+                            <div class="component-contact-content-email-value"><a href="mailto: contact@domain.com">contact@domain.com</a></div>
+                        </div>
+                        <div class="component-contact-content-phone">
+                            <div class="component-contact-content-phone-text">PHONE</div>
+                            <div class="component-contact-content-phone-value"><a href="tel: 555-555-555">555-555-555</a></div>
+                        </div>
+                        <div class="component-contact-content-website">
+                            <div class="component-contact-content-website-text">WEBSITE</div>
+                            <div class="component-contact-content-website-value"><a href="http://www.yourweb.com" target="_blank">www.yourweb.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-skills">
+                    <div class="component-skills-header">
+                        <img class="component-skills-header-img" src="img/SKILLS%20ICON.png" alt="Skills">
+                        <span class="component-skills-header-text">SKILLS</span>
+                        <div class="component-skills-header-line"></div>
+                    </div>
+                    <div class="component-skills-content">
+                        <div class="component-skills-content-creative">
+                            <span class="component-skills-content-creative-text">CREATIVE</span>
+                            <div class="component-skills-content-creative-circles">
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                                <div class="component-skills-content-creative-circle"></div>
+                            </div>
+                        </div>
+                        <div class="component-skills-content-teamwork">
+                            <span class="component-skills-content-teamwork-text">TEAMWORK</span>
+                            <div class="component-skills-content-teamwork-circles">
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                                <div class="component-skills-content-teamwork-circle"></div>
+                            </div>
+                        </div>
+                        <div class="component-skills-content-innovate">
+                            <span class="component-skills-content-innovate-text">INNOVATE</span>
+                            <div class="component-skills-content-innovate-circles">
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                                <div class="component-skills-content-innovate-circle"></div>
+                            </div>
+                        </div>
+                        <div class="component-skills-content-communication">
+                            <span class="component-skills-content-communication-text">COMMUNICATION</span>
+                            <div class="component-skills-content-communication-circles">
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
+                                <div class="component-skills-content-communication-circle"></div>
                             </div>
                         </div>
                     </div>
-                    <textarea class="content-form-textarea">Type your query here</textarea>
-                    <div class="content-form-button-conteiner"><input class="content-form-button-submit" type="submit" value="SEND"></div>
-                </form>
+                </div>
             </div>
-            <div class="footer">
-                <div class="footer-text">&copy; 2015 indipixel design</div>
-                <div class="footer-mail">
-                    <img class="footer-mail-img" src="/img/Mail%20icon.png" alt="Mail">
-                    <div class="footer-mail-text"><a href="mailto: contact@yourmail.com">contact@yourmail.com</a></div>
+            <div class="block-right">
+                <div class="component-education">
+                    <div class="component-education-header">
+                        <img class="component-education-header-img" src="img/EDUCATION%20ICON.png" alt="Education">
+                        <span class="component-education-header-text">EDUCATION</span>
+                        <div class="component-education-header-line"></div>
+                    </div>
+                    <ul class="component-education-content-list">
+                        <li class="component-education-content-list-item">
+                            <span class="component-education-content-list-item-header-title">MASTER DEGREE</span>
+                            <span class="component-education-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-education-content-list-item-header-university">UNIVERSITY NAME</span>
+                            <p class="component-education-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                        <li class="component-education-content-list-item">
+                            <span class="component-education-content-list-item-header-title">MASTER DEGREE</span>
+                            <span class="component-education-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-education-content-list-item-header-university">UNIVERSITY NAME</span>
+                            <p class="component-education-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                        <li class="component-education-content-list-item">
+                            <span class="component-education-content-list-item-header-title">MASTER DEGREE</span>
+                            <span class="component-education-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-education-content-list-item-header-university">UNIVERSITY NAME</span>
+                            <p class="component-education-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                        <li class="component-education-content-list-item">
+                            <span class="component-education-content-list-item-header-title">MASTER DEGREE</span>
+                            <span class="component-education-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-education-content-list-item-header-university">UNIVERSITY NAME</span>
+                            <p class="component-education-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="component-experience">
+                    <div class="component-experience-header">
+                        <img class="component-experience-header-img" src="img/EXPERIENCE%20ICON.png" alt="Experience">
+                        <span class="component-experience-header-text">EXPERIENCE</span>
+                        <div class="component-experience-header-line"></div>
+                    </div>
+                    <ul class="component-experience-content-list">
+                        <li class="component-experience-content-list-item">
+                            <span class="component-experience-content-list-item-header-title">COMPANY NAME</span>
+                            <span class="component-experience-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-experience-content-list-item-header-job">YOUR JOB HERE</span>
+                            <p class="component-experience-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                        <li class="component-experience-content-list-item">
+                            <span class="component-experience-content-list-item-header-title">COMPANY NAME</span>
+                            <span class="component-experience-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-experience-content-list-item-header-job">YOUR JOB HERE</span>
+                            <p class="component-experience-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                        <li class="component-experience-content-list-item">
+                            <span class="component-experience-content-list-item-header-title">COMPANY NAME</span>
+                            <span class="component-experience-content-list-item-header-date">// Feb 2011 - Jun 2014</span><br>
+                            <span class="component-experience-content-list-item-header-job">YOUR JOB HERE</span>
+                            <p class="component-experience-content-list-item-content-text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                Donec quam felis, ultricies nec, pellentesque.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="component-software">
+                    <div class="component-software-header">
+                        <img class="component-software-header-img" src="img/SOFTWARE%20ICON.png" alt="Software">
+                        <span class="component-software-header-text">SOFTWARE</span>
+                        <div class="component-software-header-line"></div>
+                    </div>
+                    <div class="component-software-content">
+                        <div class="component-software-content-block-left">
+                            <div class="component-software-content-photoshop">
+                                <span class="component-software-content-photoshop-text">PHOTOSHOP</span>
+                                <div class="component-software-content-photoshop-line">
+                                    <div class="component-software-content-photoshop-line-back"></div>
+                                </div>
+                            </div>
+                            <div class="component-software-content-illustrator">
+                                <span class="component-software-content-illustrator-text">ILLUSTRATOR</span>
+                                <div class="component-software-content-illustrator-line">
+                                    <div class="component-software-content-illustrator-line-back"></div>
+                                </div>
+                            </div>
+                            <div class="component-software-content-idesign">
+                                <span class="component-software-content-idesign-text">INDESIGN</span>
+                                <div class="component-software-content-idesign-line">
+                                    <div class="component-software-content-idesign-line-back"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="component-software-content-block-right">
+                            <div class="component-software-content-dreamweaver">
+                                <span class="component-software-content-dreamweaver-text">DREAMWEAVER</span>
+                                <div class="component-software-content-dreamweaver-line">
+                                    <div class="component-software-content-dreamweaver-line-back"></div>
+                                </div>
+                            </div>
+                            <div class="component-software-content-aftereff">
+                                <span class="component-software-content-aftereff-text">AFTER EFFECTS</span>
+                                <div class="component-software-content-aftereff-line">
+                                    <div class="component-software-content-aftereff-line-back"></div>
+                                </div>
+                            </div>
+                            <div class="component-software-content-htmlcss">
+                                <span class="component-software-content-htmlcss-text">HTML&amp;CSS3</span>
+                                <div class="component-software-content-htmlcss-line">
+                                    <div class="component-software-content-htmlcss-line-back"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
