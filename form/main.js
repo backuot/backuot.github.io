@@ -54,7 +54,7 @@
 
 	__webpack_require__(30);
 
-	__webpack_require__(42);
+	__webpack_require__(43);
 
 /***/ },
 /* 1 */
@@ -115,9 +115,9 @@
 
 	__webpack_require__(31);
 
-	__webpack_require__(32);
+	__webpack_require__(33);
 
-	__webpack_require__(34);
+	__webpack_require__(35);
 
 /***/ },
 /* 31 */
@@ -126,85 +126,86 @@
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 32 */
+/* 32 */,
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	__webpack_require__(33);
-
-/***/ },
-/* 33 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
+	__webpack_require__(34);
 
 /***/ },
 /* 34 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	'use strict';
-
-	__webpack_require__(35);
-
-	__webpack_require__(36);
+	// removed by extract-text-webpack-plugin
 
 /***/ },
 /* 35 */
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-
-/***/ },
-/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
+
+	__webpack_require__(36);
 
 	__webpack_require__(37);
 
-	__webpack_require__(38);
-
 /***/ },
-/* 37 */
+/* 36 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 38 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
+	__webpack_require__(38);
+
 	__webpack_require__(39);
 
-	var _jquery = __webpack_require__(41);
+/***/ },
+/* 38 */
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	__webpack_require__(40);
+
+	var _jquery = __webpack_require__(42);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	(function ($, undefined) {
-	  $('.form-select').on('click', function () {
-	    $(".form-select__list").slideToggle('fast');
+	  $('.js-form-select').on('click', function () {
+	    $(".js-form-select__list").slideToggle('fast');
 	  });
 
-	  $('.form-select__list li').click(function () {
+	  $('.js-form-select__list-item').click(function () {
 	    var text = $(this).html();
-	    $(".form-select__selected").html(text);
+	    $(".js-form-select__selected-value").html(text);
 	  });
 	})(_jquery2.default);
 
 /***/ },
-/* 39 */
+/* 40 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 40 */,
-/* 41 */
+/* 41 */,
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -10430,31 +10431,31 @@
 
 
 /***/ },
-/* 42 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	__webpack_require__(43);
-
 	__webpack_require__(44);
 
+	__webpack_require__(45);
+
 /***/ },
-/* 43 */
+/* 44 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 44 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 
-	__webpack_require__(45);
+	__webpack_require__(46);
 
 /***/ },
-/* 45 */
+/* 46 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
