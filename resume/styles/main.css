@@ -155,24 +155,24 @@ a:hover {
   text-decoration: none;
 }@font-face {
   font-family: "MyriadPro";
-  src: url(./resume/fonts/MyriadPro-Bold/MyriadPro-Bold.eot?1619d839541acf3f37cdb9f371337aee);
-  src: url(./resume/fonts/MyriadPro-Bold/MyriadPro-Bold.eot?1619d839541acf3f37cdb9f371337aee?#iefix) format("embedded-opentype"), url(./resume/fonts/MyriadPro-Bold/MyriadPro-Bold.woff?853d1d0149eaa358c6c230fea071d9a4) format("woff"), url(./resume/fonts/MyriadPro-Bold/MyriadPro-Bold.ttf?92356080d63a2923785f40e060e4c58f) format("truetype"), url(./resume/fonts/MyriadPro-Bold/MyriadPro-Bold.svg?98914e62e4b867241dd529b0d9a77e98#MyriadPro) format("svg");
+  src: url(/resume/fonts/MyriadPro-Bold/MyriadPro-Bold.eot?1619d839541acf3f37cdb9f371337aee);
+  src: url(/resume/fonts/MyriadPro-Bold/MyriadPro-Bold.eot?1619d839541acf3f37cdb9f371337aee?#iefix) format("embedded-opentype"), url(/resume/fonts/MyriadPro-Bold/MyriadPro-Bold.woff?853d1d0149eaa358c6c230fea071d9a4) format("woff"), url(/resume/fonts/MyriadPro-Bold/MyriadPro-Bold.ttf?92356080d63a2923785f40e060e4c58f) format("truetype"), url(/resume/fonts/MyriadPro-Bold/MyriadPro-Bold.svg?98914e62e4b867241dd529b0d9a77e98#MyriadPro) format("svg");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "MyriadPro";
-  src: url(./resume/fonts/MyriadPro-Regular/MyriadPro-Regular.eot?c6ca92e6d67f3db0346ade1d80a4f65e);
-  src: url(./resume/fonts/MyriadPro-Regular/MyriadPro-Regular.eot?c6ca92e6d67f3db0346ade1d80a4f65e?#iefix) format("embedded-opentype"), url(./resume/fonts/MyriadPro-Regular/MyriadPro-Regular.woff?5fa4b9bf457093e33b747953b0707e65) format("woff"), url(./resume/fonts/MyriadPro-Regular/MyriadPro-Regular.ttf?49dfdec399a5083b44cf64159d7baa10) format("truetype"), url(./resume/fonts/MyriadPro-Regular/MyriadPro-Regular.svg?65cf9b6105ddea6e6d6ce6eeb674e9c8#MyriadPro) format("svg");
+  src: url(/resume/fonts/MyriadPro-Regular/MyriadPro-Regular.eot?c6ca92e6d67f3db0346ade1d80a4f65e);
+  src: url(/resume/fonts/MyriadPro-Regular/MyriadPro-Regular.eot?c6ca92e6d67f3db0346ade1d80a4f65e?#iefix) format("embedded-opentype"), url(/resume/fonts/MyriadPro-Regular/MyriadPro-Regular.woff?5fa4b9bf457093e33b747953b0707e65) format("woff"), url(/resume/fonts/MyriadPro-Regular/MyriadPro-Regular.ttf?49dfdec399a5083b44cf64159d7baa10) format("truetype"), url(/resume/fonts/MyriadPro-Regular/MyriadPro-Regular.svg?65cf9b6105ddea6e6d6ce6eeb674e9c8#MyriadPro) format("svg");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "MyriadPro";
-  src: url(./resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.eot?e85dbcd2763a8b91f94c2e4851907ff5);
-  src: url(./resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.eot?e85dbcd2763a8b91f94c2e4851907ff5?#iefix) format("embedded-opentype"), url(./resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.woff?f511898d82eec27c6a5169ed5d98171d) format("woff"), url(./resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.ttf?16cc786a8199902922c6f0ab39869a46) format("truetype"), url(./resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.svg?3a01a3148f3c5284c4ad8291aa2d1b55#MyriadPro) format("svg");
+  src: url(/resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.eot?e85dbcd2763a8b91f94c2e4851907ff5);
+  src: url(/resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.eot?e85dbcd2763a8b91f94c2e4851907ff5?#iefix) format("embedded-opentype"), url(/resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.woff?f511898d82eec27c6a5169ed5d98171d) format("woff"), url(/resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.ttf?16cc786a8199902922c6f0ab39869a46) format("truetype"), url(/resume/fonts/MyriadPro-LightSemiExt/MyriadPro-LightSemiExt.svg?3a01a3148f3c5284c4ad8291aa2d1b55#MyriadPro) format("svg");
   font-weight: 500;
   font-style: normal;
 }.contact {
@@ -182,8 +182,8 @@ a:hover {
 
 .contact__list {
   display: flex;
-  margin-top: 37.5px;
-  font-size: 22.9px;
+  margin-top: 37px;
+  font-size: 23px;
 }
 
 @media only screen and (max-width: 945px) {
@@ -270,7 +270,7 @@ a:hover {
 .name__info_name {
   font-family: "MyriadPro", "Arial", "sans-serif";
   text-transform: uppercase;
-  font-size: 58.6px;
+  font-size: 59px;
   font-weight: 500;
   margin-top: 42px;
   font-weight: 500;
@@ -279,7 +279,7 @@ a:hover {
 .name__info_surname {
   font-family: "MyriadPro", "Arial", "sans-serif";
   text-transform: uppercase;
-  font-size: 67.6px;
+  font-size: 68px;
   margin-top: 11px;
   font-weight: 700;
 }
@@ -287,7 +287,7 @@ a:hover {
 .name__info_profession {
   font-family: "MyriadPro", "Arial", "sans-serif";
   text-transform: uppercase;
-  font-size: 26.7px;
+  font-size: 27px;
   margin-top: 17px;
   font-weight: 700;
 }.profile {
@@ -297,7 +297,7 @@ a:hover {
 
 .profile__text {
   font-family: "MyriadPro", "Arial", "sans-serif";
-  font-size: 17.0px;
+  font-size: 17px;
   padding-top: 17px;
   padding-left: 1px;
   line-height: 1.3rem;
@@ -306,7 +306,7 @@ a:hover {
 
 .profile__text_bold {
   font-family: "MyriadPro", "Arial", "sans-serif";
-  line-height: 21.0px;
+  line-height: 21px;
   font-weight: 700;
 }.resume-head {
   align-items: center;
@@ -317,7 +317,6 @@ a:hover {
   font-family: "MyriadPro", "Arial", "sans-serif";
   text-transform: uppercase;
   font-size: 46px;
-  font-weight: 70;
   color: #3d6cb0;
   padding-left: 10px;
   padding-right: 5px;
@@ -340,30 +339,6 @@ a:hover {
   min-width: 83px;
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.profile-head__img {
-  background-image: url(./resume/components/resume-head/img/profile-icon.png?3cb700a087a532f1665bc20e2f409bf6);
-}
-
-.contact-head__img {
-  background-image: url(./resume/components/resume-head/img/phone-icon.png?ea99ef56f879a04408b107975e0c146a);
-}
-
-.skills-head__img {
-  background-image: url(./resume/components/resume-head/img/skills-icon.png?4d5a1a860d51f642222072b00b5167fc);
-}
-
-.education-head__img {
-  background-image: url(./resume/components/resume-head/img/education-icon.png?38975457d6eae4e04d80d79346e74618);
-}
-
-.experience-head__img {
-  background-image: url(./resume/components/resume-head/img/experience-icon.png?132660f109eb2885da4dc128a0153e59);
-}
-
-.software-head__img {
-  background-image: url(./resume/components/resume-head/img/software-icon.png?65037e309482b54ea1c4acf6a622cdff);
 }.resume-list {
   background-size: contain;
   list-style-position: outside;
@@ -395,7 +370,7 @@ a:hover {
 
 .resume-list__header_level2 {
   font-family: "MyriadPro", "Arial", "sans-serif";
-  font-size: 28.1px;
+  font-size: 28px;
   padding-left: 16px;
   font-weight: 400;
 }
@@ -404,9 +379,9 @@ a:hover {
   font-family: "MyriadPro", "Arial", "sans-serif";
   text-transform: uppercase;
   display: block;
-  font-size: 28.4px;
+  font-size: 28px;
   padding-left: 14px;
-  margin-top: 2.9px;
+  margin-top: 3px;
   font-weight: 400;
 }
 
@@ -415,7 +390,7 @@ a:hover {
   margin-top: 5px;
   margin-left: 16px;
   line-height: 1.3rem;
-  font-size: 17.1px;
+  font-size: 17px;
   font-weight: 400;
   margin-bottom: 14px;
 }
@@ -525,7 +500,7 @@ a:hover {
 
 .skills__progress > .skills__circle:nth-child(-n+11),
 .skills__progress_status > .skills__circle:nth-child(-n+11) {
-  margin-right: 12.5px;
+  margin-right: 12px;
 }.software {
   width: 100%;
 }
@@ -557,7 +532,7 @@ a:hover {
   width: 44.4%;
   min-width: 200px;
   font-family: "MyriadPro", "Arial", "sans-serif";
-  font-size: 28.1px;
+  font-size: 28px;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -575,7 +550,7 @@ a:hover {
 
 .software__progress {
   background-color: #e6e6e6;
-  height: 23.3px;
+  height: 23px;
   width: 100%;
   z-index: 0;
 }
@@ -583,7 +558,7 @@ a:hover {
 .software__progress_status {
   position: absolute;
   background-color: #3d6cb0;
-  height: 23.3px;
+  height: 23px;
   z-index: 1;
 }
 
